@@ -5,11 +5,15 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.5'
 # Use postgresql as the database for Active Record
 gem 'pg'
+<<<<<<< HEAD
 
 group :production do
       gem 'rails_12factor'
 end
 
+=======
+gem 'rails_12factor'
+>>>>>>> posts
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
