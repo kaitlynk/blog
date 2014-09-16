@@ -1,0 +1,18 @@
+<div class = 'row'>
+  <div class = 'large-12 small-12 columns'>
+    <h1>Create a new user</h1>
+    <%= form_for User.new do |u| %>
+      <label>First Name
+        <%= u.text_field :first_name, placeholder: 'First name' %>
+      </label>
+      <label>Last Name
+        <%= u.text_field :last_name, placeholder: 'Last Name' %>
+      </label>
+      <label>Email
+        <%= u.text_field :email, placeholder: 'Email Address' %>
+      </label>
+      <%= u.submit 'Save User', class: 'button' %>
+    <% end %>
+  </div><!--12-->
+</div><!--row-->
+				     
