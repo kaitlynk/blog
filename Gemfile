@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.5'
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'annotate'
+gem 'bcrypt'
 
 group :production do
       gem 'rails_12factor'
