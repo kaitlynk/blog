@@ -1,0 +1,19 @@
+<%= form_for @user do |u| %>
+	<label>
+		First Name
+		<%= u.text_field :first_name, placeholder:'First Name' %>
+	</label>
+	<label>
+		Last Name
+		<%= u.text_field :last_name, placeholder:'Last Name' %>
+	</label>
+	<label>
+		Email
+    	<%= u.text_field :email, placeholder: 'Email Address' %>
+	</label>
+	<label>
+		Password
+		<%= u.password_field :password, placeholder: 'Password' %>
+	</label>
+	<%= u.submit 'Save User', class: 'button' %>
+<% end %>
